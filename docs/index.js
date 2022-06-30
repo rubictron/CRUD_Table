@@ -7,7 +7,8 @@ var table = $('#example').crudTable({
     hide: [],
     addDatabase: function (data) {
         console.log('custom write add database function, data = ');
-       tabledata.push(data);
+        console.log(data);
+       
     },
     updateDatabase: function (data) {
         console.log('custom write update database function, data = ');
